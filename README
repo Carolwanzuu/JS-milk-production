@@ -1,0 +1,24 @@
+# Milk Production
+## Author
+Carolyne Wanzuu
+## Description
+{This is a website that gives report on milk production in different shed for different periods including monthly.}
+### Prerequisites
+You should have git installed
+Git can be installed with the following command in your terminal:
+'$ sudo apt install git-all
+## Setup/Installation Requirements
+Inorder to access this file from your local machine, you can clone it using these steps:
+* Open your terminal
+* Use this command to clone: "git clone https://github.com/Carolwanzuu/JS-milk-production.git'
+*This will clone the repository to your local user
+
+## Technologies Used
+*HTML
+*CSS
+*Javascript
+*Git
+## live site
+view [live](https://github.com/Carolwanzuu/JS-milk-production.git)
+### License
+This project is under the [MIT](LICENSE) license

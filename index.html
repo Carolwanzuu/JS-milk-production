@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-
-        </title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Milk Production</title>
     </head>
 <body>
 
 <h1>Milk Production</h1>
-<p id="shed A"></p>
-<button type="button" onclick="myFunction()">produce</button>
-
-<script>
-function myFunction() {
-  document.getElementById("shedA").innerHTML = "Input changed.";
-}
-</script>
+<div class="form">
+<p id="Total-production"><strong>Report</strong></p>
+<div class="input">
+    <label for="shedA">shed A</label>
+<input class="number" type="text" id="shedA" name="shedA">
+</div>
+<div class="input">
+    <label for="shedB">shed B</label>
+<input class="number" type="text" id="shedB" name="shedB">
+</div>
+<div class="input">
+    <label for="shedC">shed C</label>
+<input class="number" type="text" id="shedC" name="shedC">
+</div>
+<div class="input">
+    <label for="shedD">shed D</label>
+<input class="number" type="text" id="shedD" name="shedD">
+</div>
+<script> src="js/script.js"</script>
 
 </body>
 </html>
