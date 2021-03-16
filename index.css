@@ -9,3 +9,11 @@ h1{
     font-size: large;
     color: rgba(25, 15, 160, 0.133)
 }
+button{
+    color:blueviolet
+}
+body{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+}

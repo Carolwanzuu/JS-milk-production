@@ -19,14 +19,14 @@ var totalProduction = function(){
     console.log("1876 litres/day")
 };
 totalProduction();
-*/
+
 class Milk Production {
 
 }
 shedA = new Shed("A", 0);
 shedB = new Shed("A", 0);
 shedC = new Shed("A", 0);
-shedD = new Shed("A", 0);
+shedD = new Shed("A", 0);*/
 
 function updateProduction(e) {
     e.preventDefault();
@@ -34,16 +34,21 @@ function updateProduction(e) {
     production = parseInt(document.getElementById("Total-production").nodeValue;
 if (selectedShed == ("A") {
         shedA.production = production;
-    }
-}else.if (selectedShed == ("B") {
+    };
+else.if (selectedShed == ("B") {
     shedB.production = production;
-}else.if (selectedShed == ("C") {
+};
+else.if (selectedShed == ("C") {
     shedC.production = production;
-}else (selectedShed == ("D") {
+};
+else (selectedShed == ("D") {
     shedD.production = production;
+};
 
-
-
+function myFunction("selling_price, time"){
+    console.log("selling_price * time");
+}
+var x = myFunction(45*7);
 
 
 
