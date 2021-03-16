@@ -4,28 +4,40 @@
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>Milk Production</title>
+        <link rel="stylesheet" href="index.css">
     </head>
 <body>
 
 <h1>Milk Production</h1>
-<div class="form">
-<p id="Total-production"><strong>Report</strong></p>
-<div class="input">
-    <label for="shedA">shed A</label>
-<input class="number" type="text" id="shedA" name="shedA">
-</div>
-<div class="input">
-    <label for="shedB">shed B</label>
-<input class="number" type="text" id="shedB" name="shedB">
-</div>
-<div class="input">
-    <label for="shedC">shed C</label>
-<input class="number" type="text" id="shedC" name="shedC">
-</div>
-<div class="input">
-    <label for="shedD">shed D</label>
-<input class="number" type="text" id="shedD" name="shedD">
-</div>
+<div class="Milk-Production">
+    <div class = "production">
+<p id="Total-production"><strong>Production</strong></p>
+<div id="input">
+    <label for="shed">Shed</label>
+    <select id = "shed">
+        <option value = "A">A</option>
+        <option value = "B">B</option>
+        <option value = "C">C</option>
+        <option value = "D">D</option>
+    </select id="title">
+    <br>
+    <br>
+    <br>
+    <label for = "production">Production/Litres</label>
+    <br>
+    <input type = "number" id = "Production">
+    <br>
+    <br>
+    <button input type = "submit" value="Submit" onclick = "return updateProduction">
+<br>
+<label for="Total-production">Total-production</label>
+<br>
+<br>
+
+<button onclick="return getTotalProduction" value="click">=</button>
+<br>
+<br>
+
 <script> src="js/script.js"</script>
 
 </body>
